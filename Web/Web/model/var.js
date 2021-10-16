@@ -1,0 +1,12 @@
+var SERVER_URL = 'http://bkparking.ddns.net:3002/';
+var API_ADMIN_LOGIN = SERVER_URL + "admin_login"
+var API_OWNER_LOGIN = SERVER_URL + "ownerlogin"
+var API_ADMIN_REGISTER = SERVER_URL + "admin_register"
+var API_PARKINGLOT_INFO = SERVER_URL + "parkinglots"
+var API_BOOKING_LIST = SERVER_URL + "bookings"
+var API_PARKINGLOTS_LIST = SERVER_URL + "parkinglots"
+var API_USER_LIST = SERVER_URL + "users"
+var API_USER_REGISTER = SERVER_URL + "register"
+var API_OWNER_LIST = SERVER_URL + "owners"
+var API_ADMIN_LIST = SERVER_URL + "admins"
+var API_REQUEST = SERVER_URL + "requests"

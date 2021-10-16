@@ -1,0 +1,32 @@
+{
+  "name": "bkparking-api-server",
+  "version": "1.0.0",
+  "description": "BKParking API Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Notes"
+  ],
+  "author": "thong nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "@clearonline/express-request-capture": "0.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-queue": "0.0.12",
+    "express-rate-limit": "^5.2.6",
+    "express-request-capture": "^3.0.1",
+    "express-request-queue": "^1.0.3",
+    "mongoose": "^5.12.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "swagger-jsdoc": "^6.0.1",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
